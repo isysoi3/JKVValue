@@ -14,9 +14,9 @@ let package = Package(
     targets: [
         .target(
             name: "JKVValue",
-            dependencies: []),
-        .testTarget(
-            name: "JKVValueTests",
-            dependencies: ["JKVValue"]),
+            dependencies: [],
+            path: "JKVValue",
+            publicHeadersPath: ""
+        )
     ]
 )
